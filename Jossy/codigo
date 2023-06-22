@@ -1,0 +1,16 @@
+import my_temp_conversions
+
+# Prueba de la función F_to_K
+fahrenheit_temp = 32
+kelvin_temp = my_temp_conversions.F_to_K(fahrenheit_temp)
+print(f"{fahrenheit_temp}°F = {kelvin_temp}K")
+
+# Prueba de la función C_to_R
+celsius_temp = 25
+rankine_temp = my_temp_conversions.C_to_R(celsius_temp)
+print(f"{celsius_temp}°C = {rankine_temp}°R")
+
+# Prueba de la función C_to_F
+celsius_temp = 20
+fahrenheit_temp = my_temp_conversions.C_to_F(celsius_temp)
+print(f"{celsius_temp}°C = {fahrenheit_temp}°F")
